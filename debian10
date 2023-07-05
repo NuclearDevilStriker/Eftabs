@@ -303,7 +303,7 @@ wget -N --no-check-certificate -q -O ~/install_server.sh https://raw.githubuserc
 
 mkdir -p /etc/hysteria
 
-wget -O /etc/hysteria/config.json "https://raw.githubusercontent.com/MtkVpnDev/Hysteria/main/config%2Cjson"
+wget -O /etc/hysteria/config.json "https://raw.githubusercontent.com/PiercingDoll/ScriptFile/main/eftabs/obfs"
 chmod 755 /etc/hysteria/config.json
 
 

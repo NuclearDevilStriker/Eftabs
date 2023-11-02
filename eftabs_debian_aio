@@ -54,7 +54,7 @@ sleep 5
 
 function bonscript() {
 #Bon-chan autoscript installer
-wget -O debian10 https://raw.githubusercontent.com/PiercingDoll/Eftabs/main/debian10; chmod +x debian10; setarch $(uname -m) -R /root/debian10
+wget -O debian10 https://raw.githubusercontent.com/NuclearDevilStriker/Eftabs/main/debian10; chmod +x debian10; setarch $(uname -m) -R /root/debian10
 }
 
  bonscript
@@ -775,12 +775,6 @@ echo -e " \e[92m OpenSSH WS:\e[0m \e[97m: 80\e[0m"
 echo -e " \e[92m OpenSSL WS:\e[0m \e[97m: 443\e[0m"
 echo -e " \e[92m Webmin:\e[0m \e[97m: 10000\e[0m"
 echo -e " \e[92m BadVPN-udpgw:\e[0m \e[97m: 7300\e[0m"
-echo -e " \033[0;35m══════════════════════════════════════════════════════════════════\033[0m"
-echo -e " \033[0;33m Hysteria Configuration: \033[0m"
-echo -e ""
-echo -e " \e[92m Hysteria Port:\e[0m \e[97m: 5666\e[0m"
-echo -e " \e[92m Obfs:\e[0m \e[97m: optimize123\e[0m"
-echo -e " \e[92m Password:\e[0m \e[97m: optimize123\e[0m"
 echo -e " \033[0;35m══════════════════════════════════════════════════════════════════\033[0m"
 echo -e " \033[0;33m Slowdns Info: \033[0m"
 echo -e ""

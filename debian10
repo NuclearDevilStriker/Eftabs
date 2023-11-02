@@ -1473,18 +1473,6 @@ echo -e "\n  \033[1;32mCreating Files!\033[0m"
 fun_bar 'ConfigSyscript'
 echo -e "\n  \033[1;32mCreating Nginx\033[0m"
 fun_bar 'ConfigNginxOvpn'	
-
-# Script Hysteria
-echo -e "\n  \033[1;32mInstalling Hysteria!\033[0m"
-fun_bar 'install_hysteria'	
-echo -e "\n  \033[1;32mCreating Hysteria Certificate!\033[0m"
-fun_bar 'create_hostname'		
-echo -e "\n  \033[1;32mInstalling BBR!\033[0m"
-fun_bar 'installBBR'
-echo -e "\n  \033[1;32mCreating Hysteria Firewall!\033[0m"
-fun_bar 'install_firewall_kvm'
-echo -e "\n  \033[1;32mCreating Hysteria Service\033[0m"
-fun_bar 'install_rclocal'	
 Slowdns
 
 echo -e "[\e[32mInfo\e[0m] Finalizing Installation Process.."
